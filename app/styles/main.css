@@ -1,0 +1,26 @@
+/* main.html own style */
+.thumb {
+  height: 96px;
+  margin-bottom: 2.5em;
+  text-align: center;
+  line-height: 96px;
+}
+
+.column_4.thumb {
+  height: 220px;
+  line-height: 220px;
+}
+
+/* profile.html own style */
+body > header .logo {
+    margin-right: 1rem;
+    max-height: 3rem;
+    border-radius: .25rem;
+}
+
+body > footer img {
+    height: 18px;
+    position: relative;
+    top: 5px;
+    left: 2px; 
+}
