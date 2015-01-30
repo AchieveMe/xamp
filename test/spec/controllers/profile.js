@@ -1,17 +1,17 @@
 'use strict';
 
-describe('Controller: AboutCtrl', function () {
+describe('Controller: ProfileCtrl', function () {
 
   // load the controller's module
   beforeEach(module('xampApp'));
 
-  var AboutCtrl,
+  var ProfileCtrl,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    AboutCtrl = $controller('AboutCtrl', {
+    ProfileCtrl = $controller('ProfileCtrl', {
       $scope: scope
     });
   }));
